@@ -16,7 +16,6 @@ RUN mkdir -p /usr/local/flutter
 RUN chown appuser:appuser /usr/local/flutter
 
 RUN mkdir /home/appuser/app
-COPY ./ /home/appuser/app
 RUN chown -R appuser:appuser /home/appuser
 
 USER appuser
